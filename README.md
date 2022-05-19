@@ -5,6 +5,8 @@ This code is a part of a pipeline to process genetics/medical reports to be more
 
 The reports are initially exported from their respective softwares before being converted to .xlsx files by Adobe Acrobat Pro XI using it's batch conversion macros. 
 
+In order to use the conversion macros, the user needs to install the CHLA version of Adobe Pro XI. They must then go to the "tools" menu. Click "create new action" and select "save and export" from the left menu and add a "save" module to your new macro. Using the "specify settings" button under the added save module, select "export file(s) to alternative output" and select excel workbook. You can then save and use the macro to batch convert folders of pdf's to excel files.
+
 Once the files are in .xlsx format, they are able to be processed with the code in this repository and output .csv files with more easily extractable tables and other information. 
 
 The manual code can be used for individual files where the user pastes the file location of the desired to-be-converted .xlsx file. 
